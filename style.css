@@ -82,5 +82,54 @@ a{
 
 
 .contacts p{
-color: lightgray;
+color: rgb(158, 153, 153);
+}
+
+
+.buttom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    justify-content:center;
+    margin-top: 20px;
+    height: 80px;
+}
+
+.additional{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.lastLinks{
+    display: flex;
+    flex-direction: Row;
+    font-size: 14px;
+}
+
+.lastLinks li a{
+    text-decoration: underline;
+}
+
+.author{
+    display: flex;
+    margin-top: 12px;
+}
+
+.author a{
+    text-decoration: underline;
+}
+
+.author p{
+    color: grey;
+    word-spacing: 2px;
+}
+
+.author img{
+    height: 20px;
+    margin:0  10px;
 }
