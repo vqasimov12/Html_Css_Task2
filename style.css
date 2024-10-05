@@ -133,3 +133,22 @@ color: rgb(158, 153, 153);
     height: 20px;
     margin:0  10px;
 }
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.navbar{
+    display: flex;
+}
+.navbar img{
+    height: 50px;
+    margin-bottom: 20px;
+}
+.navigationLinks{
+    display: flex;
+    gap: 30px;
+}
