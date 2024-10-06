@@ -162,47 +162,6 @@ nav {
   display: flex;
   gap: 20px;
 }
-/* 
-
-.navBtn1{
-    margin-right: 40px;
-    margin-top: -50px;
-    gap: 10px;
-    height: 50px;
-    width: 50px;
-    justify-content: center;
-    align-items: center;
-    border-color: chocolate;
-    background-color: rgb(255, 196, 33);
-    border-radius: 50%;
-    margin-bottom: 40px;
-}
-.navBtn1:hover{
-    margin-top: -15px;
-    width: 55px;
-    height: 55px;
-    margin-bottom: 37px;
-}
-
-
-
-.navBtn2{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: -100px;
-}
-
-.navBtn2:hover{
-    width: 55px;
-    height: 55px;
-}
-
-.navBtn2 img{
-  height: 40px;
-  width: 40px;
-} */
 
 .navBtn1,.navBtn2 {
   width: 50px;
