@@ -36,7 +36,6 @@ a {
 a:hover {
   color: rgb(80, 79, 79);
   text-decoration: underline;
-  transition: 1000ms;
 }
 
 .ListHeader {
@@ -62,6 +61,7 @@ a:hover {
   background-color: lightgrey;
   border-radius: 100%;
 }
+
 .socialMedias {
   display: flex;
   gap: 20px;
@@ -141,6 +141,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 70%;
+  border-bottom: 1px solid lightgrey;
 }
 
 .navbar {
@@ -162,47 +163,6 @@ nav {
   display: flex;
   gap: 20px;
 }
-/* 
-
-.navBtn1{
-    margin-right: 40px;
-    margin-top: -50px;
-    gap: 10px;
-    height: 50px;
-    width: 50px;
-    justify-content: center;
-    align-items: center;
-    border-color: chocolate;
-    background-color: rgb(255, 196, 33);
-    border-radius: 50%;
-    margin-bottom: 40px;
-}
-.navBtn1:hover{
-    margin-top: -15px;
-    width: 55px;
-    height: 55px;
-    margin-bottom: 37px;
-}
-
-
-
-.navBtn2{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: -100px;
-}
-
-.navBtn2:hover{
-    width: 55px;
-    height: 55px;
-}
-
-.navBtn2 img{
-  height: 40px;
-  width: 40px;
-} */
 
 .navBtn1,.navBtn2 {
   width: 50px;
@@ -231,10 +191,95 @@ i{
  .navBtn2 img{
     width: 30px;
  }
- .navBtn1:hover,.navBtn2:hover{
+ .navBtn1:hover{
     width: 55px;
     height: 55px;
     margin-bottom: 5px;
  }
 
- 
+ .navBtn2:hover{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+ }
+
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+
+}
+.news h1{
+    justify-content: right;
+    margin: 10px;
+}
+.allNews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.allNews button{
+    color: #0091fe;
+    margin: 20px;
+    width: 120px;
+    height: 40px;
+    border:2px Solid #0091fe;
+    background-color: transparent;
+
+}
+
+.allNews button:hover {
+    background-color: #0091fe; 
+    color: white; 
+}
+
+.newsBody{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.card{
+ width: 35%;
+ border: 1px solid lightblue;
+ margin-bottom: 10px;
+ padding: 10px 10px 0px 10px;
+}
+
+.card a:hover{
+    text-decoration: none;
+}
+.card a p{
+    margin-top:10px ;
+    height: 50px;
+}
+
+.dateMore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px 10px 10px ;
+
+}
+
+.more{
+    display: flex;
+    gap: 10px;
+}
+
+.more p{
+    color:#0091fe;
+    font-weight: lighter;
+    margin-left: -10px;
+}
+
+.more i{
+    color:#0091fe;
+    margin-top: 10px;
+}
+
